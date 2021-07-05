@@ -1,0 +1,21 @@
+.media{
+	margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    width: calc(100% - ( 0 * 0px ) );
+    content: '';
+    display: block;
+    border-color: #D2D6D8;
+}
+.icon{
+	padding-right: 10px;
+	margin-right: 10px;
+	float: left !important;
+}
+.media-content{
+	display: table-cell;
+    vertical-align: top;
+    width: 10000px;
+    overflow: hidden;
+}

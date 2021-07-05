@@ -1,0 +1,43 @@
+<?php
+    include 'connection.php';
+  include 'head_section.php';
+  include 'navbar.php';
+  
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="contactstyle.css">
+    <script src="contactscript.js"></script>
+</head>
+
+
+
+
+
+<div id="contact">
+    <h1><b>Contact us</b></h1>
+    <h2>We would like to hear from you </h2>
+    <div class="container">
+        <form onsubmit="confirmInput()" >
+            <label for="Name">Name</label>
+            <input type="text" id="name" name="Name" placeholder="Your name.." required>
+
+            <label for="message">Message</label>
+            <input type="text" id="message" name="message" placeholder="type your message here" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@you.com" required>
+
+            <label for="number">PhoneNumber</label>
+            <input type="text" id="number" name="number" placeholder="07xxxxxxx" required>
+
+            <input type="submit" onclick="myFunction()" value="Submit">
+        </form>
+    </div>
+</div>
+
+</html>
